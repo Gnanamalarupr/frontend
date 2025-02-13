@@ -1,0 +1,132 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef2f3;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.login-container {
+  width: 350px;
+  background: white;
+  padding-left:40px;
+  padding-right: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.login-input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.login-input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.4);
+}
+
+
+.login-button {
+  width: 108%;
+  padding: 12px;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.login-button:hover {
+  background: linear-gradient(135deg, #0056b3, #003c82);
+  transform: scale(1.03);
+}
+
+
+@media (max-width: 400px) {
+  .login-container {
+      width: 90%;
+      padding: 20px;
+  }
+}
+
+.student-table {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+
+.student-table th {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+
+.student-table td {
+  padding-left: 8px;
+  padding-right: 21px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.marks-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.submit-button{
+  background-color:rgb(80, 174, 80);
+  padding-top: 5px;
+  height:30px;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; 
+  appearance: textfield;
+}
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
