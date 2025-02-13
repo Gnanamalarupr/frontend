@@ -32,10 +32,10 @@ export default function App() {
 
             if (!res.ok) throw new Error("HTTP error");
 
-            alert("✅ Marks added successfully!");
+            alert("Marks added successfully!");
         } catch (err) {
-            console.error("❌ Error:", err);
-            alert("❌ Failed to add marks!");
+            console.error(" Error:", err);
+            alert(" Failed to add marks!");
         }
     };
 
